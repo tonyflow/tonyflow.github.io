@@ -34,3 +34,7 @@ hr{
 	width: 450px;
 	color: black;
 }
+
+.toBeDisplayed{
+	display: none;
+}
