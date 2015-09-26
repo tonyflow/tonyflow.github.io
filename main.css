@@ -1,0 +1,36 @@
+body{
+	
+	font-family: Rosario;
+}
+
+
+@font-face{
+	font-family: Rosario;
+	src:url(Rosario-Regular.otf);
+}
+
+h1,h3{
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.row{
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+hr{
+	width: 450px;
+	color: black;
+}
