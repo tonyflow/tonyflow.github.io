@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<link rel="stylesheet" href="main.css">
+		<link rel="shortcut icon" type="image/png" href="/Users/niko.strongioglou/Sites/tonyflow/favicon.png"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				$("#categories .row #dryad").click(function(){
+					$("#basil").remove();
+					$("#pip").remove();
+					$("#qa").remove();
+					$("#delivery").remove();
+					$("#web").remove();
+					$("#pl").remove();
+					$("#categories .row #dryad").removeClass("col-md-6 col-sm-6 col-xs-6");
+					$("#categories .row #dryad").addClass("col-md-3 col-sm-3 col-xs-3");
+
+					loadDryad();
+					
+				});
+
+				function loadDryad(){
+					
+				}
+			});
+
+			
+		</script>
+	</head>
+
+	<body>
+		<div id="container" class="row">
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<header><h1>Niko Strongioglou</h1></header>
+						<h4>Software Engineer</h4>
+						
+						<span id="contact">
+							<a href="https://github.com/tonyflow"><img src="pics/github.png" alt=""></a>
+							<a href=""><img src="pics/gmail.png" alt=""></a>
+							<a href=""><img src="pics/skype.png" alt=""></a>
+							<a href="https://twitter.com/nicofl0"><img src="pics/twitter.png" alt=""></a>
+							<a href="https://www.facebook.com/nicolas.flow.3"><img src="pics/facebook.png" alt=""></a>
+
+						</span>
+						<span id="return"></span>
+			</div>
+			<div id="categories" class="col-md-9 col-sm-9 col-xs-9">
+				<!-- First row -->
+				<div class="row">
+					<div id="dryad" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>Dryad</h3>
+					</div>
+					<div id="basil" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>Basil</h3>
+					</div>
+				</div>
+
+				<!-- Second row -->
+				<div class="row">
+					<div id="pip" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>PIP</h3>
+					</div>
+					<div id="qa" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>QA Automation Framework</h3>
+					</div>
+				</div>
+				
+				
+				<!-- Third row -->
+				<div class="row">
+					<div id="delivery" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>Delivery Tools</h3>
+					</div>
+					<div id="pl" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>PL/SQL</h3>
+					</div>
+				</div>
+
+
+				<!-- Fourth row -->
+				<div class="row">
+					<div id="web" class="col-md-6 col-sm-6 col-xs-6">
+						<h3>Web Development</h3>
+					</div>
+				</div>
+				
+
+			</div>
+		</div>
+		<footer>Developed and designed by Niko Strongioglou. All photos were kindly provided by the talented <a href="http://rpk.io/">rpk</a>.</footer>
+		<footer></footer>
+	</body>
+</html>
