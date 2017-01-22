@@ -49,6 +49,27 @@ a:visited{
 	height: 150px;
 }
 
+#dryad-thumb,#basil-thumb,#pip-thumb,#qa-thumb,
+#delivery-thumb,#pl-thumb,#web-thumb{
+	height: 70px;
+}
+
+.projects::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/projects.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
 footer{
 	margin-top: 30px;
 	text-align: center;
@@ -111,6 +132,150 @@ footer{
     z-index: -1;
     opacity: 0.6;
 	background-image: url(pics/extra.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#dryad::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/dryad.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#basil::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/basil.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#pip::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/pip.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#qa::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/qa.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#delivery::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/delivery.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#pl::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/pl.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#web::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/web.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#tasty::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/tasty.jpg);
+	background-position: center;
+	opacity: 0.5;
+	background-size: cover;
+}
+
+#mutiny::after{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+	background-image: url(pics/mutiny.png);
 	background-position: center;
 	opacity: 0.5;
 	background-size: cover;
