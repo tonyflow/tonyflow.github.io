@@ -46,7 +46,7 @@
 							<li>Elasticsearch</li>
 							<li>Redis</li>
 							<li>Hibernate</li>
-							<li>PorstgreSQL</li>
+							<li>PostgreSQL</li>
 							<li>Docker</li>
 						</ul>
 						<h4>Brief Description</h4>
@@ -54,14 +54,14 @@
 							It is composed of 9 modules whose communication is possible through both their : 
 							<ul>
 								<li>Messaging APIs (AMQP messages containing a byteload of Google's Protocol Buffers flowing through a RabbitMQ message bus) and their</li>
-								<li>Management APIs (web services controller allowing the user to configure the business flow as desired)</li>
+								<li>REST APIs </li>
 							</ul>
 
-							This kind of architecture renders the application language agnostic (the entire infrastructure can end up consisting of a polyglot environment) as far as the implementation of the components is concerned whilst simultaneously giving a steeper learning curve to the future developer and an oportunity for him/her to get involved more quickly.
+							This kind of architecture renders the application language agnostic (the entire infrastructure can end up consisting of a polyglot environment), as far as the implementation of the components is concerned.
 
-						In order to eliminate any compatibility matrices we introduced Docker and containerization.
+						In order to eliminate any compatibility matrices and clearly separate our concerns we introduced Docker and containerization.
 						</p>
-						<p>Dryad resides on both SQL(PostgreSQL) and NoSQL(Elasticsearch) data bases for persistance. Due to the data galore Dryad produces we have integrated the Kafka message bus ,alongside a Zookeeper cordinator ,which we use as a data warehouse before the actual ETL procedures which will eventually store data in our reporting data bases.</p>
+						<p>Dryad resides on both SQL(PostgreSQL) and NoSQL(Elasticsearch) data bases for persistence and querying. Due to the data galore Dryad produces, the Kafka integration platform was employed in order to temporarily retain data before streaming them to their corresponding reporting data bases and warehouses hosted by a Hadoop deployment.</p>
 
 					</div>
 					
